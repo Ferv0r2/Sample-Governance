@@ -2,11 +2,20 @@ const { default: plugin } = require("tailwindcss/plugin");
 
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        light: "#F7F6F7",
+        point: "#6c81fb",
+      },
+      minHeight: {
+        md: "480px",
+        sm: "320px",
+      },
+    },
   },
   plugins: [],
 };
