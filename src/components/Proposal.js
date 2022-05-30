@@ -58,6 +58,10 @@ const Proposal = () => {
               {proposal.summary}
             </div>
           </div>
+          <div className="w-11/12 p-4 pb-24 m-auto">
+            <p className="font-bold py-5 text-2xl">Proposer</p>
+            {"0x02Db15C368Fe121C8d338eB918eDFD16BD204C5B"}
+          </div>
 
           <div className="flex p-16 border-t-2">
             <div
